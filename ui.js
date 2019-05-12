@@ -35,13 +35,11 @@ class UI{
         let output = `
         <div class="container">
             <div class ="row pt-5">
-                <div class = "col-md-6">
-                        <div class="card-body">
+                <div class = "col-md-2">
                         <img src="${user.profile_picture}" class ="img-fluid mb-2" >
                         <h5>${user.full_name}</h5>  
-                        </div>
                 </div>
-                <div class = "col-md-6">
+                <div class = "col-md-4">
                     <h5>${user.username}</h5>
                         <span class="badge badge-pill badge-info">Posts: ${user.counts.media}</span>
                         <span class="badge badge-pill badge-success">Followers: ${user.counts.followed_by}</span>
